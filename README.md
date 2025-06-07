@@ -3,15 +3,15 @@
 ## File structure for the assignment
 
 <pre>
-project-root/
-├── modules/                     # Reusable, generic Terraform modules
-│   └── <module-name>/          # Example: vpc/, ec2/, s3/, etc.
+terraform/
+├── modules/                        # Reusable, generic Terraform modules
+│   └── <module-name>/              # Example: vpc/, ec2/, s3/, etc.
 │       ├── main.tf
 │       ├── variables.tf
 │       └── outputs.tf
 │
 ├── environments/
-│   ├── dev/                    # Dev environment configuration
+│   ├── dev/                        # Dev environment configuration
 │   │   ├── main.tf
 │   │   ├── variables.tf
 │   │   ├── outputs.tf
@@ -19,7 +19,7 @@ project-root/
 │   │   ├── versions.tf
 │   │   └── terraform.tfvars
 │   │
-│   └── prod/                   # Prod environment configuration
+│   └── prod/                       # Prod environment configuration
 │       ├── main.tf
 │       ├── variables.tf
 │       ├── outputs.tf
@@ -27,14 +27,14 @@ project-root/
 │       ├── versions.tf
 │       └── terraform.tfvars
 │
-├── main.tf                     # Entry point, usually calls modules
-├── variables.tf                # Input variables
-├── outputs.tf                  # Output values
-├── provider.tf                 # Provider configuration
-├── versions.tf                 # Terraform and provider version constraints
-├── terraform.tfvars            # Default values for input variables
-├── .gitignore                  # Ignore Terraform state & local files
-└── README.md                   # Documentation and assignment result
+├── main.tf                         # Entry point, usually calls modules
+├── variables.tf                    # Input variables
+├── outputs.tf                      # Output values
+├── provider.tf                     # Provider configuration
+├── versions.tf                     # Terraform and provider version constraints
+├── terraform.tfvars                # Default values for input variables
+├── .gitignore                      # Ignore Terraform state & local files
+└── README.md                       # Documentation and assignment result
 </pre>
 
 ## Summary Table
