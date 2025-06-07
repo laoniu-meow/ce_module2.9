@@ -2,19 +2,19 @@
 
 ## File structure for the assignment
 
-terraform/
-├── modules/
-│ ├── vpc/
-│ └── ec2/
-├── environments/
-│ ├── dev/
-│ │ ├── main.tf
-│ │ ├── provider.tf
-│ │ ├── variables.tf
-│ │ ├── versions.tf
-│ │ └── terraform.tfvars
-│ └── prod/
-│ └── ... // Create code for production environment
+- terraform/
+- ├── modules/
+- │ ├── vpc/
+- │ └── ec2/
+- ├── environments/
+- │ ├── dev/
+- │ │ ├── main.tf
+- │ │ ├── provider.tf
+- │ │ ├── variables.tf
+- │ │ ├── versions.tf
+- │ │ └── terraform.tfvars
+- │ └── prod/
+- │ └── ... // Create code for production environment
 
 ## Create README.md
 
