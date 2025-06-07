@@ -2,7 +2,7 @@
 
 ## File structure for the assignment
 
-<!--
+<pre>
 project-root/
 ├── modules/                     # Reusable, generic Terraform modules
 │   └── <module-name>/          # Example: vpc/, ec2/, s3/, etc.
@@ -35,7 +35,7 @@ project-root/
 ├── terraform.tfvars            # Default values for input variables
 ├── .gitignore                  # Ignore Terraform state & local files
 └── README.md                   # Documentation and assignment result
--->
+</pre>
 
 ## Summary Table
 
