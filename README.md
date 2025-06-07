@@ -23,3 +23,7 @@ This file outlines the details of this assignment and provides the detailed step
 ## Create versions.tf in the folder environments/dev/
 
 Defining the Terraform version is not strictly required, but it is considered a best practice. It helps ensure compatibility, prevents breaking changes, and makes the codebase more reproducible and reliable across different environments
+
+## Create provider.tf in the folder environments/dev/
+
+The provider is defined to tell Terraform which platform to use for creating resources in my assignment
