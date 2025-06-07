@@ -5,7 +5,7 @@
 <pre>
 terraform/
 ├── modules/                  # Reusable, generic Terraform modules
-│   └── <module-name>/        # Example: vpc/, ec2/, s3/, etc.
+│   └── "module_name"         # Example: vpc/, ec2/, s3/, etc.
 │       ├── main.tf
 │       ├── variables.tf
 │       └── outputs.tf
